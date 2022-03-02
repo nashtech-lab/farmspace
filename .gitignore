@@ -29,9 +29,9 @@ dist/
 .idea/
 
 # Eclipse
-.classpath/
-.project/
-.settings/
+*.classpath
+*.project
+*.settings
 
 # Unit test reports
 TEST*.xml
