@@ -28,6 +28,11 @@ dist/
 # JetBrains IDE
 .idea/
 
+# Eclipse
+.classpath/
+.project/
+.settings/
+
 # Unit test reports
 TEST*.xml
 
