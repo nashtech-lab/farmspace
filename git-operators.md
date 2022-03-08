@@ -1,10 +1,6 @@
-# Farmspace
+# Git operators guidance
 
-## Git operators
-
-Reference: [Git operators](./git-operators.md)
-
-### Add a submodule
+## Add a submodule
 
 ```
 git submodule add <repository> <path>
@@ -16,13 +12,13 @@ Example
 git submodule add  https://github.com/nashtech-lab/farmspace-docs.git documentation
 ```
 
-### Clone repository includes submodules
+## Clone repository includes submodules
 
 ```
 git clone --recursive -b main https://github.com/nashtech-lab/farmspace.git
 ```
 
-### Checkout all submodule to specified branch
+## Checkout all submodule to specified branch
 
 ```
 git submodule foreach --recursive "git checkout <branch-name> || true"
